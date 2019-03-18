@@ -8,4 +8,10 @@
         android:layout_height="wrap_content"
         android:id="@+id/tv_display_weather"
         android:textSize="22sp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:text="hello" />
 </FrameLayout>
