@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WortSpiel</string>
+    <string name="app_login">Log In</string>
+    <string name="app_signup">Sign Up</string>
+    <string name="app_username">Enter your username</string>
+    <string name="app_password">Enter your password</string>
+</resources>

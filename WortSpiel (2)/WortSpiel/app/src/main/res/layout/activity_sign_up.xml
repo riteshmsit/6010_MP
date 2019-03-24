@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+    <EditText
+        android:id="@+id/user_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:ems="11"
+        android:layout_gravity="center"
+        android:maxLines="1"
+        android:textSize="20sp"
+        android:backgroundTint="#FFFFF0"
+        android:hint="Username"
+        android:padding="4dp"
+        android:textColorHint="#FFFFF0"
+        />
+
+    <EditText
+        android:id="@+id/password_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center"
+        android:ems="11"
+        android:backgroundTint="#FFFFF0"
+        android:textColorHint="#FFFFF0"
+        android:maxLines="1"
+        android:textSize="20sp"
+        android:hint="Password"
+
+        />
+    <EditText
+        android:id="@+id/password_again_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#FFFFF0"
+        android:ems="11"
+        android:maxLines="1"
+        android:textSize="20sp"
+        android:hint="Re-enter the password"
+        android:textColorHint="#FFFFF0"
+
+
+        />
+    <EditText
+        android:id="@+id/email_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:ems="11"
+        android:maxLines="1"
+        android:textSize="20sp"
+        android:hint="E-mail id"
+        android:textColorHint="#FFFFF0"
+        android:backgroundTint="#FFFFF0"
+        />
+
+    <Button
+        android:id="@+id/button_signuppage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center"
+        android:text="SignUp"
+        />
+</LinearLayout>
