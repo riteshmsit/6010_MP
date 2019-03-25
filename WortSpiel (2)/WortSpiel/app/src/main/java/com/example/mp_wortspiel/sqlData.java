@@ -169,9 +169,9 @@ public class sqlData extends SQLiteOpenHelper {
         if (cursor.moveToFirst()) {
             do {
                 if(cursor.getString(0).length() >6) {
-                    top5.add(cursor.getString(0) + "                  " + cursor.getInt(1));
+                    top5.add(cursor.getString(0) + "                       " + cursor.getInt(1));
                 } else {
-                    top5.add(cursor.getString(0) + "                         " + cursor.getInt(1));
+                    top5.add(cursor.getString(0) + "                                  " + cursor.getInt(1));
                 }
             } while (cursor.moveToNext());
             cursor.close();

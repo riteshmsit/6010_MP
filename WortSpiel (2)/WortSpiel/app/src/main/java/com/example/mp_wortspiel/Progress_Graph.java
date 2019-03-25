@@ -59,7 +59,12 @@ public class Progress_Graph extends AppCompatActivity {
                 new DataPoint(1, getcorrespondingscores.get(1)),
                 new DataPoint(2, getcorrespondingscores.get(2)),
                 new DataPoint(3, getcorrespondingscores.get(3)),
-                new DataPoint(4, getcorrespondingscores.get(4))
+                new DataPoint(4, getcorrespondingscores.get(4)),
+                new DataPoint(4, getcorrespondingscores.get(5)),
+                new DataPoint(4, getcorrespondingscores.get(6)),
+                new DataPoint(4, getcorrespondingscores.get(7)),
+                new DataPoint(4, getcorrespondingscores.get(8)),
+                new DataPoint(4, getcorrespondingscores.get(9))
         });
         graph.addSeries(series);
 
@@ -89,9 +94,8 @@ public class Progress_Graph extends AppCompatActivity {
         series.setDrawValuesOnTop(true);
         series.setValuesOnTopColor(Color.RED);
         StaticLabelsFormatter staticLabelsFormatter = new StaticLabelsFormatter(graph);
-        staticLabelsFormatter.setHorizontalLabels(new String[] {distinctnames.get(0).toString(),
-                distinctnames.get(1).toString(),distinctnames.get(2).toString(),distinctnames.get(3).toString(),
-                distinctnames.get(4).toString()});
+        staticLabelsFormatter.setVerticalLabels(new String[] {distinct});
+        staticLabelsFormatter.setHorizontalLabels(new String[] {"1","2","3","4","5","6","7","8","9","10"});
 
         graph.getGridLabelRenderer().setLabelFormatter(staticLabelsFormatter);
         toppers = obj.getleadername();
